@@ -1,0 +1,38 @@
+.h1{
+    color: rgb(226, 19, 19);
+}
+.section{
+    text-align: center;
+}
+.img{
+    width: 50px;
+}
+.section{
+    text-align: center;
+}
+.d-block{
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+}
+.main{
+    text-align: center;
+}
+body{
+    background-image: url("fundo.avif");
+    text-align: center;
+    color: rgb(0, 0, 0);
+    animation: bgimage 10s infinite;
+}
+@keyframes bgimage{
+    0%{
+        background-image: url('dcmarvel.gif');       
+    }
+    50%{
+        background-image: url('superman.gif');
+    }
+    100%{
+        background-image: url('marvel3.jpg'); 
+    }
+
+}
